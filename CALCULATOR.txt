@@ -1,0 +1,49 @@
+
+print("******************************************")
+print("Welcome to Kumail's made calculator")
+print("__________________________________________")
+
+num1=int(input("Enter any num1 value of ur choice:-"))
+num2=int(input("Enter any num2 value of ur choice:-"))
+print("______________________________________________")
+
+operator=input("Enter operator(+,-,/,*,**,%,cube,sqrt,cbrt):-")
+
+print("________________________________________")
+
+sq=num1**2,num2**2
+cube=num1**3,num2**3
+sqrt=num1**(1/2),num2**(1/2)
+cbrt=num1**(1/3),num2**(1/3)
+
+if operator=="+":
+    print(num1+num2)
+
+elif operator=="-":
+    print(num1-num2)
+
+elif operator=="/":
+    print(num1/num2)
+
+elif operator=="*":
+    print(num1*num2)
+
+elif operator=="**":
+    print(sq)
+
+elif operator=="cube":
+    print(cube)
+
+elif operator=="sqrt":
+    print(sqrt)
+
+elif operator=="cbrt":
+    print(cbrt)
+
+elif operator=="%":
+    print(num1%num2)
+
+else:
+
+ print("Invalid operator input")
+print("**********************************")
